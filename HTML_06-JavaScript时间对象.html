@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js时间对象</title>
+</head>
+<body>
+<script type="text/javascript">
+    //获取当前时间
+    var date = new Date();
+    //获取年份
+    var year = date.getFullYear();
+    //获取月份
+    var month = date.getMonth()+1;
+    //获取日期
+    var day = date.getDate();
+    //获取小时
+    var hour = date.getHours();
+    //获取分钟
+    var minutes = date.getMinutes();
+    //获取秒
+    var seconds = date.getSeconds();
+    console.log(year + "年" + month + "月" + day + "日" + hour + "时" + minutes + "分" + seconds + "秒");
+
+</script>
+</body>
+</html>

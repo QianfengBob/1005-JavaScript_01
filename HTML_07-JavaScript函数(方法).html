@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js函数(方法)</title>
+</head>
+<body>
+<script type="text/javascript">
+    /*
+     关键字是function
+     */
+    //无参无返回值函数
+    function add() {
+        var a = 10;
+        var b = 11;
+        var c = a + b;
+        console.log(c);
+    }
+    //调用
+    add();
+
+    //有参有返回值
+    function sum(a,b) {
+        return a+b;
+    }
+    //调用
+    var s = sum(3,5);
+    console.log(s);
+
+    //匿名方法
+    var ss = function () {
+        return "hello world"
+    }
+    console.log("获取匿名对象"+ss());
+
+</script>
+</body>
+</html>
